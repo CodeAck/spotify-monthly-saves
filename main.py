@@ -217,9 +217,9 @@ class MonthlyPlaylists:
         return playlist
 
 spotify = MonthlyPlaylists(
-    client_id= os.environ["CLIENT_ID"],
-    client_secret= os.environ["CLIENT_SECRET"],
-    redirect_uri='http://localhost:3000/'
+    client_id= 2e7a807c58324b28ae7930a7425f04ee ,
+    client_secret= 7d595838d23742b99e41b7e660f8c71d ,
+    redirect_uri='http://localhost:3000'
 )
 
 # The class updates its date threshold to whichever song it added last.
